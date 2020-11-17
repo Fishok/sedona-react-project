@@ -1,0 +1,43 @@
+.description {
+    background-color: #EEEEEE;
+}
+
+.description ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.description h3 {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.description p {
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #333333;
+}
+
+.description span {
+    font-size: 14px;
+    line-height: 21px;
+    color: #333333;
+}
+
+.description li {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.description li:not(:last-of-type) {
+    border-bottom: 1px solid #D6D6D6;
+}
