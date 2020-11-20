@@ -1,6 +1,7 @@
 import React from "react";
 import Main from "./components/Main";
 import Footer from "./components/Footer";
+import FooterMendel from "./components/FooterMendel";
 import Header from "./components/Header";
 
 
@@ -10,6 +11,7 @@ function App() {
             <Header/>
             <Main/>
             <Footer/>
+            <FooterMendel/>
         </div>
     );
 }
