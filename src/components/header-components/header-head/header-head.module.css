@@ -33,9 +33,9 @@
 .button {
     position: relative;
     cursor: pointer;
-    border-width: 0.15vmin;
-    border-style: dashed;
-    border-color: #81b3d2;
+    /*border-width: 0.15vmin;*/
+    /*border-style: dashed;*/
+    /*border-color: #81b3d2;*/
     height: 100%;
 }
 
