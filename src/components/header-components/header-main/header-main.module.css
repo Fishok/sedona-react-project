@@ -1,0 +1,13 @@
+.img{
+    width: 100%;
+    border: none;
+}
+
+.wrapper{
+    /*top: -5vh;*/
+    position: relative;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
