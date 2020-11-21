@@ -4,11 +4,13 @@ import styles from './post.module.css'
 
 const Post = ({img, description, author, likes}) => {
     return (
-        <div className={styles.container}>
-            <img src={img}/>
+        <div className={styles.container + ' col-12'}>
             <div>
-                <h3 className={styles.commonTextStyle}>{description}</h3>
-                <h>{`Автор фото: ${author}`}</h>
+                <img className={styles.img} src={img}/>
+            </div>
+            <div className={styles.descriptionWrapper}>
+                <div className={styles.commonTextStyle}>{description}</div>
+                <div className={styles.authorTextStyle}>{`Автор фото: ${author}`}</div>
             </div>
             <div className={styles.likeWrapper}>
                 <img src={likeImg}/>
