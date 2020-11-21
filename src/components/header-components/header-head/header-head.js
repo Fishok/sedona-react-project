@@ -4,10 +4,14 @@ import imgTopMenu from "../../../images/TopMenu.svg";
 
 const HeaderHead = (props) => {
     return (
-            <div className={styles["wrapper"]}>
-                <img className={styles["img"]} src={imgTopMenu}></img>
-                <div className={styles["transparent-button"]}></div>
+        <div className={styles["wrapper"]}>
+            <img className={styles["img"]} src={imgTopMenu}></img>
+            <div className={styles["buttons-wrapper"]}>
+                <div className={styles["button"]+" "+styles["left"]}></div>
+                <div className={styles["button"]+" "+styles["middle"]}></div>
+                <div className={styles["button"]+" "+styles["right"]}></div>
             </div>
+        </div>
     );
 }
 
