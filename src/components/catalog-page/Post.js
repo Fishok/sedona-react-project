@@ -1,16 +1,20 @@
 import React from 'react';
+import likeImg from '../../images/like-icon.svg';
+import styles from './post.module.css'
 
-const Post = ({ img, description, author, likes  }) => {
-    return(
-        <div>
+const Post = ({img, description, author, likes}) => {
+    return (
+        <div className={styles.container}>
             <img src={img}/>
             <div>
-                <h3>{description}</h3>
-                <h1>{`Автор фото: ${author}`}</h1>
+                <h3 className={styles.commonTextStyle}>{description}</h3>
+                <h>{`Автор фото: ${author}`}</h>
             </div>
-            <div>
-                <img src={'../../images/like-icon.svg'} />
-                <h3>{likes}</h3>
+            <div className={styles.likeWrapper}>
+                <img src={likeImg}/>
+                <div className={styles.commonTextStyle + ' ' + styles.likesTextStyle}>
+                    <h>{likes}</h>
+                </div>
             </div>
         </div>
     )
