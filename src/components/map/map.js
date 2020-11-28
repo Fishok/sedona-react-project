@@ -4,7 +4,8 @@ import classes from './map.module.css';
 
 const Map = () => {
     return(
-        <section className={classes.map}>
+        // eslint-disable-next-line no-undef
+        <section className={classes.map + ' col-12'}>
             <img src={img} alt="map"/>
         </section>
 

@@ -5,7 +5,7 @@ import Map from "./map/map";
 
 const Main = () => {
     return (
-        <div>
+        <div className={"row"}>
             <DescriptionLayout/>
             <CtaLayout/>
             <Map/>

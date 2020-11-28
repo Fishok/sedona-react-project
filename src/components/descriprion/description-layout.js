@@ -16,10 +16,10 @@ const DescriptionLayout = () => {
     )
 
     return(
-        <section className={classes.description}>
-            <ul>
+        <section className={classes.description + " container-fluid"}>
+            <div className={classes.ul+" row"}>
                 {componentItems}
-            </ul>
+            </div>
         </section>
     )
 }

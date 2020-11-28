@@ -8,7 +8,7 @@ import Form from "./components/form/form";
 
 function App() {
     return (
-        <div className='container'>
+        <div className='container-fluid'>
             <Header/>
             <Main/>
             {/*<Form/>*/}
