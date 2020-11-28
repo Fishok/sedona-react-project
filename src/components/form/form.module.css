@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+h3 {
+    padding-bottom: 15px;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 21px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+p {
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+i {
+    margin-left: 4px;
+}
+
+.leaveFeadback p {
+    padding-top: 15px;
+}
+
+.formName div {
+    padding-top: 15px;
+}
+
+.formName div:first-of-type {
+    padding-top: 0;
+}
+
+.formName div input{
+    background-color: #F2F2F2;
+    height: 58px;
+}
+
+.formContact p {
+    text-align: left;
+}
+
+.formContact p:last-of-type {
+    padding-top: 15px;
+}
+
+.formContact div {
+    display: flex;
+    align-items: center;
+}
+
+.formContact div input {
+    background-color: #F2F2F2;
+    height: 58px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.formContact div input::placeholder {
+    color: #000;
+}
+
+.formContact div div {
+    height: 58px;
+    width: 58px;
+    background-color: #E6E6E6;
+}
+
+.formImpression div {
+    margin-top: 10px;
+}
+
+.formImpression div input{
+    height: 48px;
+    width: 48px;
+}
+
+.formImpression div label{
+    display: flex;
+    align-items: center;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #000000;
+}
+
+.formSights div {
+    margin-top: 10px;
+}
+
+.formSights div input{
+    height: 48px;
+    width: 48px;
+}
+
+.formSights div p{
+    display: flex;
+    align-items: center;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: none;
+    color: #000000;
+}
+
+.formDetails textarea {
+    background-color: #F2F2F2;
+    border: none;
+    display: flex;
+    align-items: center;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.formDetails textarea::placeholder {
+    color: #000;
+}
+
+.formSubmit {
+    margin-top: 51px;
+}
+
+.formSubmit input{
+    background-color: #81B3D2;
+    border: none;
+    color: #FFFFFF;
+    height: 58px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 21px;
+    text-transform: uppercase;
+}

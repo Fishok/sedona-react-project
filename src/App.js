@@ -3,6 +3,7 @@ import Main from "./components/Main";
 import Footer from "./components/Footer";
 import FooterMendel from "./components/FooterMendel";
 import Header from "./components/Header";
+import Form from "./components/form/form";
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
         <div className='container'>
             <Header/>
             <Main/>
+            {/*<Form/>*/}
             <Footer/>
             <FooterMendel/>
         </div>
